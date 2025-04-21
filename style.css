@@ -1,0 +1,193 @@
+
+*{
+    scroll-behavior: smooth;
+    
+}
+
+
+body{
+    background-color: rgb(21, 21, 21);
+}
+
+header{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 30px;
+    background-color: rgb(253, 75, 10);
+    padding: 0 5px;
+    
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+
+.nav .active{
+    color: rgb(253, 75, 10);
+}
+
+ul li a:hover{
+    color:rgb(253, 75, 10) ;
+}
+
+.icon{
+    margin-right: 20px;
+    
+    
+}
+
+.icon:hover{
+    color: white;
+}
+
+
+section{
+    color: white;
+    display: flex;
+    
+}
+
+section h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    margin-left: 130px;
+    margin-top: 110px;
+}
+
+
+
+section .text2{
+   margin-top: -100px;
+   margin-left: 180px;
+}
+
+section img{
+    width: 450px;
+    
+    
+}
+
+.box{
+
+    margin-left: -90px;
+    margin-top: 20px;
+    
+
+}
+
+.textbox{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 250px;
+}
+
+.textbox>.ux{
+    color: rgb(253, 75, 10);
+    text-decoration: underline;
+    
+}
+
+.textbox>.h2{
+    margin-top: -15px;
+    width: 280px;
+    
+}
+
+.textbox>#p{
+    font-size: 10px;
+    width: 320px;
+    margin-top: -12px;
+}
+
+.textbox>#h51{
+    color: rgb(253, 75, 10);
+    margin-top: 30px;
+}
+
+.textbox>#h52{
+    color: rgb(253, 75, 10);
+    margin-top: -20px;
+}
+
+#bg{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border-radius: 7px;
+    color: white;
+}
+#item1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+#item2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 300px;
+    width: 300px;
+    margin-top: 80px;
+}
+
+#h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 75, 10);
+    text-decoration: underline;
+}
+
+#about{
+    font-size: 10px;
+}
+
+#thr{
+    font-size: 60px;
+    color: rgb(253, 75, 10);
+}
+
+#exp{
+    margin-left: -733px;
+    margin-top: -5px;
+    width: 100px;
+    font-size: 20px;
+}
+
+#mail{
+    color: rgb(253, 75, 10);
+    margin-top: -40px;
+    text-decoration: underline;
+}
+
+#last{
+    height: 100px;
+    background-color:rgb(21, 21, 21) ;
+
+}
+
+
+.Services{
+    background-color: rgb(28, 28, 28);
+}
+
